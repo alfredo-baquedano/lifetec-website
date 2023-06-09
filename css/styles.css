@@ -80,7 +80,7 @@ body, p {
 
 h1 {
 	color: #484a46;
-	font: 700 2.5rem/3rem "Montserrat", sans-serif;
+	font: 700 2.2rem/3rem "Montserrat", sans-serif;
 }
 
 h2 {
@@ -788,6 +788,10 @@ input[type='checkbox'] {
 .header h1 {
 	margin-bottom: 0.5rem;
 	color: #fff;
+}
+
+.header .header-accent {
+	color: #1867C0;
 }
 
 .header .p-large {
