@@ -970,6 +970,24 @@ input[type='checkbox'] {
 	background-color: #fff;
 }
 
+.technical-support {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.technical-support-logo {
+	display: flex;
+	justify-content: space-around;
+	width: 600px;
+}
+
+.technical-support-logo img {
+	height: 100px;
+}
+
 
 /*************************/
 /*     08. Details 1     */
