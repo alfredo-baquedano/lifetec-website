@@ -928,8 +928,6 @@ input[type='checkbox'] {
 .cards-2 .card-body {
 	padding: 2.25rem 2rem 2.125rem 2rem;
 	border: 1px solid #ebe8e8;
-	border-bottom-left-radius: 0.375rem;
-	border-bottom-right-radius: 0.375rem;
 	background-color: #fff;
 }
 
@@ -1179,7 +1177,6 @@ input[type='checkbox'] {
 .slider {
 	padding-top: 6.375rem;
 	padding-bottom: 6.5rem;
-	background-color: #fbfbfb;
 }
 
 .slider h2 {
@@ -1203,6 +1200,10 @@ input[type='checkbox'] {
 	outline: none;
 }
 
+.slider h2 {
+	margin-bottom: 3.25rem;
+}
+
 .slider .swiper-button-prev {
 	left: -0.5rem;
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
@@ -1222,12 +1223,10 @@ input[type='checkbox'] {
 }
 
 .slider .card-image {
-	width: 6rem;
-	height: 6rem;
+	height: 8rem;
 	margin-right: auto;
 	margin-bottom: 0.25rem;
 	margin-left: auto;
-	border-radius: 50%;
 }
 
 .slider .card .card-body {
