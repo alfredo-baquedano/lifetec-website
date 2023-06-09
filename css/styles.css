@@ -655,7 +655,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-	height: 4rem;
+	height: 3.2rem;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -981,11 +981,12 @@ input[type='checkbox'] {
 .technical-support-logo {
 	display: flex;
 	justify-content: space-around;
-	width: 600px;
+	width: 300px;
+	flex-direction: column;
 }
 
 .technical-support-logo img {
-	height: 100px;
+	margin-bottom: 10px;
 }
 
 
@@ -2038,6 +2039,16 @@ a:hover.back-to-top {
 
 	.ex-basic-2 .form-container {
 		margin-top: 0.5rem;
+	}
+
+	.technical-support-logo {
+		flex-direction: row;
+		width: 600px;
+	}
+
+	.technical-support-logo img {
+		margin-bottom: 10px;
+		height: 100px;
 	}
 	/* end of extra pages */
 }
