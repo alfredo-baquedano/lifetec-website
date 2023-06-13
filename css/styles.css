@@ -782,6 +782,7 @@ input[type='checkbox'] {
 }
 
 .header .text-container {
+	text-shadow: 0.5px 0.5px 1px #000;
 	margin-bottom: 3rem;
 }
 
