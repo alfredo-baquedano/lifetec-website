@@ -1395,20 +1395,24 @@ input[type='checkbox'] {
 	float: left;
 	overflow: hidden;
 	width: 50%;
+	padding: 16px;
 }
 
 .filter .element-item img {
 	max-width: 100%;
-	margin: 0;
-	transition: all 0.3s;
+	margin: 0px;
 }
 
-.filter .element-item:hover img {
-	-moz-transform: scale(1.15);
-	-webkit-transform: scale(1.15);
-	transform: scale(1.15);
-} 
-/* end of hover animation */
+
+.filter .element-item .card-image img {
+	height: 140px;
+	width: 100%;
+	object-fit: contain;
+}
+
+.filter .element-item .card-body {
+	text-align: center;
+}
 
 .filter .element-item .element-item-overlay { 
 	position: absolute;
@@ -2396,7 +2400,7 @@ a:hover.back-to-top {
 	/* Projects */
 	.filter .element-item {
 		width: 17.3125rem; /* to eliminate grid overflow problem on hard refresh */
-		height: 16.875rem;
+		height: 19.875rem;
 	}
 
 	.filter .element-item .element-item-overlay span { 
