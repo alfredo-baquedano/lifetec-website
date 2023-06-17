@@ -956,6 +956,10 @@ input[type='checkbox'] {
 	background-color: #fff;
 }
 
+.cards-2 .card-body p {
+	margin-bottom: 0px;
+}
+
 .cards-2 h3 {
 	margin-bottom: 0.75rem;
 	text-align: center;
