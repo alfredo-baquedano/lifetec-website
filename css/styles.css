@@ -1395,7 +1395,6 @@ input[type='checkbox'] {
 	float: left;
 	overflow: hidden;
 	width: 50%;
-	background-color: #000; /* to hide 1px white margin in IE */
 }
 
 .filter .element-item img {
